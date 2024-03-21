@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+        url('../../fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('../../fonts/ProximaNova-Bold.woff') format('woff'),
+        url('../../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
+        url('../../fonts/ProximaNova-Semibold.woff2') format('woff2'),
+        url('../../fonts/ProximaNova-Semibold.woff') format('woff'),
+        url('../../fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: local('Proxima Nova Regular Italic'), local('ProximaNova-RegularIt'),
+        url('../../fonts/ProximaNova-RegularIt.woff2') format('woff2'),
+        url('../../fonts/ProximaNova-RegularIt.woff') format('woff'),
+        url('../../fonts/ProximaNova-RegularIt.svg#ProximaNova-RegularIt') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+        url('../../fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../../fonts/ProximaNova-Regular.woff') format('woff'),
+        url('../../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*, *::after, *::before {
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--font-color);
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+button, input {
+    font-family: inherit;
+}
+
+.container {
+    max-width: 1170px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.custom-button {
+    background: var(--gradient);
+    border: none;
+    border-radius: 26px;
+    padding: 15px 30px;
+    color: #fff;
+    box-shadow: var(--button-box-shadow);
+    font-weight: 600;
+    line-height: 1.4;
+    transition: box-shadow 0.3s;
+}
+
+.custom-button:hover {
+    box-shadow: var(--button-box-shadow--hover);
+}
+
+.custom-button--white {
+    font-size: 14px;
+    background: #fff;
+    border: 1px solid var(--brand-color);
+    box-shadow: none;
+    color: var(--font-color);
+    text-transform: uppercase;
+}
+
+.cta-button {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    background: var(--gradient);
+    border: none;
+    border-radius: 35px;
+    padding: 10px 10px 10px 24px;
+    box-shadow: var(--button-box-shadow);
+    transition: box-shadow 0.3s;
+}
+
+.cta-button:hover {
+    box-shadow: var(--button-box-shadow--hover);
+}
+
+.cta-button::after {
+    content: url('../../images/icons/icon-arrow.svg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    padding-top: 2px;
+    background-color: #fff;
+    border-radius: 100%;
+    pointer-events: none;
+    user-select: none;
+}
+
+.custom-input {
+    padding: 15px 30px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--font-color);
+    border: 1px solid var(--brand-color);
+    border-radius: 26px;
+}
+
+.custom-input::placeholder {
+    font-weight: 600;
+    color: var(--font-color);
+}
+
+.custom-ul {
+    padding: 0;
+    list-style: none;
+}
+
+.p-italic {
+    font-style: italic;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.no-scroll {
+    overflow: hidden;
+}

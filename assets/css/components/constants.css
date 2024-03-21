@@ -1,0 +1,15 @@
+:root {
+    --brand-color: #76B926;
+    --brand-color--dark: #62A53C;
+
+    --bg-color: #F4F4F4;
+    --bg-color--light: #EDEEF0;
+    --bg-color--dark: #DFDFDF;
+
+    --font-color: #37454A;
+    --font-color--light: #878f92;
+
+    --gradient: linear-gradient(90deg, #6CB644 0%, #82CA2C 100%);
+    --button-box-shadow: 0 10px 20px 0 rgba(132, 199, 55, 0.3);
+    --button-box-shadow--hover: 0 0 20px 0 rgb(91, 141, 35, 0.5);
+}

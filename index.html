@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Site</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <div class="global-wrapper">
+        <header class="header">
+            <div class="header__main">
+                <div class="container">
+                    <div class="row">
+                        <div class="header__logo col">
+                            <a href="#" class="logo">
+                                <img src="./assets/images/icons/icon-logo.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="header__info col">
+                            <div class="location">
+                                <p>ТЕКСТ ТЕКСТ</p>
+                                <div class="location__row">
+                                    <button type="button" class="location__button">
+                                        <img src="./assets/images/icons/icon-pin.svg" alt="">
+                                        <span>Тексттт (10)</span>
+                                    </button>
+                                    <span class="location__additional">текст (10)</span>
+                                </div>
+                            </div>
+                            <button type="button" class="custom-button custom-button--white">
+                                <img src="./assets/images/icons/icon-text.svg" alt="">
+                                <span>Запишитесь на проверку</span>
+                            </button>
+                        </div>
+                        <div class="header__contacts col">
+                            <div class="contacts">
+                                <a href="tel:+78001111111" class="contacts__phone">+7 (800) 111-111-1</a>
+                                <button type="button" class="contacts__call">Перезвоните мне</button>
+                            </div>
+                            <div class="header__cart">
+                                <div class="cart">
+                                    <a href="#" class="cart__link">
+                                        <img src="./assets/images/icons/icon-cart.svg" alt="">
+                                        <span class="cart__counter">7</span>
+                                    </a>
+                                    <a href="#" class="cart__link">
+                                        <img src="./assets/images/icons/icon-fav.svg" alt="">
+                                        <span class="cart__counter">3</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="burger-button">
+                                <div class="burger-button__line"></div>
+                                <div class="burger-button__line"></div>
+                                <div class="burger-button__line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navigation">
+                <div class="row">
+                    <div class="container">
+                        <ul class="navigation__list custom-ul">
+                            <li class="navigation__item"><a href="#">Текст текст</a></li>
+                            <li class="navigation__item"><a href="#">Текст текст текст</a></li>
+                            <li class="navigation__item"><a href="#">Текст текст</a></li>
+                            <li class="navigation__item"><a href="#">Текст текст</a></li>
+                            <li class="navigation__item"><a href="#">Текст текст</a></li>
+                            <li class="navigation__item"><a href="#">Текст текст</a></li>
+                        </ul>
+                    </div>
+                    <form class="search">
+                        <button type="button" class="search__submit">
+                            <img src="./assets/images/icons/icon-search.svg" alt="">
+                        </button>
+                        <input type="search" name="s" id="search">
+                    </form>
+                </div>
+            </nav>
+            <div class="burger-menu">
+                <div class="burger-menu__wrapper">
+                    <div class="contacts">
+                        <a href="tel:+78001111111" class="contacts__phone">+7 (800) 111-111-1</a>
+                        <button type="button" class="contacts__call">Перезвоните мне</button>
+                    </div>
+                    <div class="location">
+                        <p>ТЕКСТ ТЕКСТ</p>
+                        <div class="location__row">
+                            <button type="button" class="location__button">
+                                <img src="./assets/images/icons/icon-pin.svg" alt="">
+                                <span>Тексттт (10)</span>
+                            </button>
+                            <span class="location__additional">текст (10)</span>
+                        </div>
+                    </div>
+                    <button type="button" class="custom-button custom-button--white">
+                        <img src="./assets/images/icons/icon-text.svg" alt="">
+                        <span>Запишитесь на проверку</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__row">
+                        <div class="hero__content">
+                            <div class="breadcrumbs">
+                                <ul class="breadcrumbs__list custom-ul">
+                                    <li class="breadcrumbs__item breadcrumbs__item--home"><a href="#"><img src="./assets/images/icons/icon-breadcrumbs-home.svg" alt=""></a></li>
+                                    <li class="breadcrumbs__item">Текст текст</li>
+                                </ul>
+                            </div>
+                            <h1>Заголовок <span>текст текст</span> текст текст текст текст</h1>
+                            <div class="hero__description">
+                                <p>текст текст, текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст.</p>
+                                <p class="p-italic">Текст – текст текст текст текст текст , текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст.</p>
+                            </div>
+                            <button type="button" class="custom-button custom-button--white">
+                                Записаться на проверку
+                            </button>
+                        </div>
+                        <div class="hero__image">
+                            <img src="./assets/images/render-hero.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="benefits">
+                <div class="container">
+                    <h2>Заголовок заголовок заголовок</h2>
+                    <ul class="benefits__list custom-ul">
+                        <li class="benefit">
+                            <div class="benefit__image">
+                                <img src="./assets/images/icons/icon-benefit-1.svg" alt="">
+                            </div>
+                            <p>Текст <span>Текст текст</span> Текст текст<br>Текст</p>
+                        </li>
+                        <li class="benefit">
+                            <div class="benefit__image">
+                                <img src="./assets/images/icons/icon-benefit-2.svg" alt="">
+                            </div>
+                            <p>Текст Текст Текст Текст Текст<br>Текст Текст<br>Текст Текст Текст</p>
+                        </li>
+                        <li class="benefit">
+                            <div class="benefit__image">
+                                <img src="./assets/images/icons/icon-benefit-3.svg" alt="">
+                            </div>
+                            <p>Текст Текст Текст<br>Текст</p>
+                        </li>
+                        <li class="benefit">
+                            <div class="benefit__image">
+                                <img src="./assets/images/icons/icon-benefit-4.svg" alt="">
+                            </div>
+                            <p>Текст Текст Текст Текст<br>Текст Текст<br>Текст Текст</p>
+                        </li>
+                        <li class="benefit">
+                            <div class="benefit__image">
+                                <img src="./assets/images/icons/icon-benefit-5.svg" alt="">
+                            </div>
+                            <p><span>Текст Текст Текст Текст</span>,<br>Текст Текст Текст Текст<br>Текст Текст</p>
+                        </li>
+                        <li class="benefit">
+                            <div class="benefit__image">
+                                <img src="./assets/images/icons/icon-benefit-6.svg" alt="">
+                            </div>
+                            <p>Текст<br>Текст Текст Текст<br>Текст Текст</p>
+                        </li>
+                    </ul>
+                    <button type="button" class="cta-button">
+                        Записаться на проверку
+                    </button>
+                </div>
+            </section>
+
+            <section class="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about__content">
+                            <h2>Текст текст:</h2>
+                            <ul>
+                                <li>текст текст</li>
+                                <li>текст текст текст текст</li>
+                                <li>текст</li>
+                                <li>текст текст текст текст текст текст текст текст текст текст текст текст</li>
+                                <li>текст текст текст текст текст текст текст текст текст текст</li>
+                                <li>текст текст текст текст текст текст текст текст текст текст текст текст текст текст</li>
+                            </ul>
+                        </div>
+                        <img src="./assets/images/render-about.jpg" class="about__image" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section class="slider-section">
+                <div class="container">
+                    <h2>Заголовок</h2>
+                    <div class="slider swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slider__slide slide">
+                                <div class="slide__inner">
+                                    <img src="./assets/images/slide1.png" class="slide__image" alt="">
+                                    <div class="slide__content">
+                                        <h3>Вопрос вопрос вопрос?</h3>
+                                        <p>Текст Текст Текст Текст Текст</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__slide slide">
+                                <div class="slide__inner">
+                                    <img src="./assets/images/slide2.png" class="slide__image" alt="">
+                                    <div class="slide__content">
+                                        <h3>Вопрос вопрос вопрос?</h3>
+                                        <p>Текст Текст Текст Текст Текст</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__slide slide">
+                                <div class="slide__inner">
+                                    <img src="./assets/images/slide3.png" class="slide__image" alt="">
+                                    <div class="slide__content">
+                                        <h3>Вопрос вопрос вопрос?</h3>
+                                        <p>Текст Текст Текст Текст Текст</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__slide slide">
+                                <div class="slide__inner">
+                                    <img src="./assets/images/slide1.png" class="slide__image" alt="">
+                                    <div class="slide__content">
+                                        <h3>Вопрос вопрос вопрос?</h3>
+                                        <p>Текст Текст Текст Текст Текст</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__slide slide">
+                                <div class="slide__inner">
+                                    <img src="./assets/images/slide2.png" class="slide__image" alt="">
+                                    <div class="slide__content">
+                                        <h3>Вопрос вопрос вопрос?</h3>
+                                        <p>Текст Текст Текст Текст Текст</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__slide slide">
+                                <div class="slide__inner">
+                                    <img src="./assets/images/slide3.png" class="slide__image" alt="">
+                                    <div class="slide__content">
+                                        <h3>Вопрос вопрос вопрос?</h3>
+                                        <p>Текст Текст Текст Текст Текст</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="slider-section__description">*текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст.</p>
+                </div>
+            </section>
+
+            <section class="question-section">
+                <div class="container">
+                    <div class="question-card">
+                        <div class="question-card__content">
+                            <h2>Вопрос вопрос вопрос вопрос вопрос вопрос вопрос?</h2>
+                            <ol>
+                                <li>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст</li>
+                                <li>Текст Текст Текст Текст Текст Текст Текст</li>
+                                <li>Текст Текст Текст Текст Текст Текст Текст Текст</li>
+                                <li>Текст Текст Текст Текст Текст Текст Текст Текст Текст</li>
+                                <li>Текст Текст Текст Текст Текст Текст</li>
+                            </ol>
+                            <p>Текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст.</p>
+                        </div>
+                        <div class="question-card__image">
+                            <img src="./assets/images/render-question.jpg" alt="">
+                        </div>
+                    </div>
+                    <button type="button" class="cta-button">
+                        Записаться на проверку
+                        <img src="ICON" alt="">
+                    </button>
+                </div>
+            </section>
+
+            <section class="feedback-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="feedback">
+                            <h2>Текст текст текст текст текст текст текст</h2>
+                            <form class="feedback__form">
+                                <input type="email" name="email" id="email" class="custom-input" placeholder="Введите свой e-mail">
+                                <button type="submit" class="custom-button">Подписаться</button>
+                            </form>
+                        </div>
+                        <div class="social">
+                            <h3>Мы в соц. сетях:</h3>
+                            <ul class="social__list custom-ul">
+                                <li><a href="#"><img src="./assets/images/icons/icon-social-vk.svg" alt=""></a></li>
+                                <li><a href="#"><img src="./assets/images/icons/icon-social-facebook.svg" alt=""></a></li>
+                                <li><a href="#"><img src="./assets/images/icons/icon-social-instagram.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <div class="footer-contacts">
+                        <div class="footer-contacts__main">
+                            <a href="#" class="logo">
+                                <img src="./assets/images/icons/icon-logo.svg" alt="">
+                            </a>
+                            <ul class="footer-contacts__list custom-ul">
+                                <li>
+                                    <a href="tel:+78001111111">
+                                        <img src="./assets/images/icons/icon-contacts-1.svg" alt="">
+                                        <span>+7 (800) 111-111-1</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@vmeo.ru">
+                                        <img src="./assets/images/icons/icon-contacts-2.svg" alt="">
+                                        <span>info@vmeo.ru</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./assets/images/icons/icon-contacts-3.svg" alt="">
+                                        <span>Задать вопрос</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./assets/images/icons/icon-contacts-4.svg" alt="">
+                                        <span>Оставить отзыв</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <p class="footer-contacts__description">текст текст текст текст текст текст текст текст текст текст текст текст текст</p>
+                    </div>
+                    <nav class="footer-nav">
+                        <section class="footer-nav__section">
+                            <h2>Заголовок</h2>
+                            <ul class="custom-ul">
+                                <li><a href="#">Название</a></li>
+                                <li><a href="#">Название название</a></li>
+                                <li><a href="#">Название название</a></li>
+                                <li><a href="#">Название</a></li>
+                                <li><a href="#">Названиеназвание</a></li>
+                            </ul>
+                        </section>
+                        <section class="footer-nav__section">
+                            <h2>Заголовок</h2>
+                            <ul class="custom-ul">
+                                <li><a href="#">Название</a></li>
+                                <li><a href="#">Название название</a></li>
+                                <li><a href="#">Название название</a></li>
+                                <li><a href="#">Название название</a></li>
+                                <li><a href="#">Название</a></li>
+                                <li><a href="#">Название</a></li>
+                                <li><a href="#">Название название</a></li>
+                                <li><a href="#">Название</a></li>
+                            </ul>
+                        </section>
+                        <section class="footer-nav__section">
+                            <h2>Заголовок Заголовок</h2>
+                            <ul class="custom-ul">
+                                <li><a href="#">Название</a></li>
+                                <li><a href="#">Название</a></li>
+                                <li><a href="#">Название</a></li>
+                                <li><a href="#">Название</a></li>
+                                <li><a href="#">Название</a></li>
+                                <li><a href="#">Название название</a></li>
+                                <li><a href="#">Название</a></li>
+                            </ul>
+                        </section>
+                        <section class="footer-nav__section">
+                            <h2>Заголовок</h2>
+                            <ul class="custom-ul">
+                                <li><a href="#">Название</a></li>
+                                <li><a href="#">Название</a></li>
+                                <li><a href="#">Название</a></li>
+                                <li><a href="#">Название название</a></li>
+                                <li><a href="#">Название</a></li>
+                                <li><a href="#">Название</a></li>
+                                <li><a href="#">Название</a></li>
+                                <li><a href="#">Название</a></li>
+                                <li><a href="#">Название</a></li>
+                            </ul>
+                        </section>
+                    </nav>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <p><a href="#">Политика конфиденциальности</a><br>© Все права защищены авторским правом</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/scripts.js"></script>
+</body>
+</html>
